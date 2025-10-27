@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.vr013.com/sitemap.xml
+Sitemap: https://jgsxx.cn/sitemap.xml
 
 Disallow: /zb_system/
 Disallow: /zb_users/
