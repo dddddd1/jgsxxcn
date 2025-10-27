@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+	<title>加工中心正六边形编程实例 - 常州钣金加工 - 常州钣金加工_常州冲压加工</title>
+	<meta name="keywords" content="常州钣金加工_常州冲压加工"/>
+	<meta name="description" content="以下是一个基本的加工中心正六边形编程实例的代码：O0010(PROGRAM&nbsp;NUMBER) (T1&nbsp;D=6.0&nbsp;CR=0.&nbsp;-&nbsp;ZMIN=-20.&nbsp;-&nbsp;FLAT&nbsp;END&nbsp;MILL..."/>
+	<meta name="author" content="常州冲压加工">
+	<meta name="generator" content="金刚石选型机" />
+	<link rel="stylesheet" rev="stylesheet" href="../zb_users/theme/filmlee/style/style.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css" media="screen" type="text/css" />
+	
+	
+	
+	
+	<!--[if lt IE 9]><script src="//cdn.staticfile.org/html5shiv/3.7.0/html5shiv.js"></script><![endif]-->
+	</head>
+<body  style="background-color: #f7f7f7;background-image: url(../zb_users/theme/filmlee/style/images/body_bg.png);" >
+<div id="header_content">
+<header  id="header" class="header">
+	<div class="container-inner">
+		<div class="g-logo"><a href="../index.html"><h1><img title="常州钣金加工_常州冲压加工" alt="常州钣金加工_常州冲压加工" src="../zb_users/theme/filmlee/style/images/logo.png"></h1></a></div>
+	</div>
+<div id="toubuads"></div>
+<div id="nav-header" class="navbar" data-type="article"  data-infoid="1 ">
+	<div class="screen-mini"><button data-type="screen-nav" class="btn btn-inverse screen-nav"><i class="fa fa-list"></i></button></div>
+	<ul class="nav">
+		<li id="nvabar-item-index"><a href="https://jgsxx.cn">首页</a></li><li id="navbar-category-2"><a href="../xxj.html">选球机</a></li><li id="navbar-category-1"><a href="xxj.html">选型机</a></li><li id="navbar-category-3"><a href="../jiguangqiege.html">常州激光切割加工</a></li><li id="navbar-category-4"><a href="../hj.html">常州焊接加工</a></li><li id="navbar-page-16"><a href="../16.html">联系方式</a></li>			</ul>
+</div>
+</header><section class="container">
+<div class="speedbar">
+	<div class="pull-right"><i class="fa fa-power-off"></i></div>
+	<div class="toptip" id="callboard">
+		<ul style="font-size:16px;margin-top: 2px;">
+		<li style="margin-top: 2px;">常州钣金加工</li><li style="margin-top: 2px;">联系电话：13503122530</li>		</ul>
+	</div>
+</div>
+
+<div class="content-wrap">
+<div class="content min-page">
+	<div class="breadcrumbs">
+		<a title="返回首页" href="../index.html"><i class="fa fa-home"></i></a> <small>&gt;</small>
+		<a href="../banjinjiagong.html" title="查看 常州钣金加工 中的全部文章" >常州钣金加工</a> <small>&gt;</small>
+		<span class="muted">加工中心正六边形编程实例</span>
+	</div>
+<div class="article-header"><h2 class="article-title"><a href="58.html">加工中心正六边形编程实例</a></h2>
+	<div class="meta">
+		<span id="mute-category" class="muted"><i class="fa fa-list-alt"></i><a href="../banjinjiagong.html">常州钣金加工</a></span>
+		<span class="muted"><i class="fa fa-user"></i> <a href="../author-1.html">常州钣金加工</a></span>
+		<span class="muted"><i class="fa fa-clock-o"></i>2023-05-16</span>
+		<span class="muted"><i class="fa fa-eye"></i> 347 次浏览</span>
+		<span class="muted"><i class="fa fa-comments-o"></i> <a href="#comments">0个评论</a></span>
+	</div>
+	<div class="baidufx">
+		常州钣金加工	</div>
+</div> 
+<div class="article-content">
+	<p>以下是一个基本的加工中心正六边形编程实例的代码：</p><pre class="prism-highlight prism-language-actionscript">O0010(PROGRAM&nbsp;NUMBER)
+(T1&nbsp;D=6.0&nbsp;CR=0.&nbsp;-&nbsp;ZMIN=-20.&nbsp;-&nbsp;FLAT&nbsp;END&nbsp;MILL)
+&nbsp;G90&nbsp;G94&nbsp;G54&nbsp;G17
+G20
+M06&nbsp;T1
+S1000&nbsp;M03
+G43&nbsp;H01&nbsp;Z0.1&nbsp;M08
+&nbsp;G00&nbsp;X0.&nbsp;Y0.&nbsp;S1000&nbsp;M03
+G01&nbsp;Z-2.&nbsp;F50.
+&nbsp;(Run&nbsp;the&nbsp;drill&nbsp;to&nbsp;make&nbsp;a&nbsp;center&nbsp;hole&nbsp;in&nbsp;the&nbsp;hexagon)
+G00&nbsp;X0.&nbsp;Y0.&nbsp;Z0.1
+G81&nbsp;Z-10.&nbsp;R2.&nbsp;F50.&nbsp;M09
+&nbsp;G00&nbsp;Z0.1
+G00&nbsp;X0.&nbsp;Y0.&nbsp;Z0.1
+G00&nbsp;Z0.1
+&nbsp;G01&nbsp;Z-2.&nbsp;F50.
+&nbsp;(Turn&nbsp;on&nbsp;the&nbsp;spindle&nbsp;and&nbsp;coolant)
+M08
+&nbsp;(Start&nbsp;cutting&nbsp;the&nbsp;hexagon)
+G01&nbsp;X10.&nbsp;Y0.&nbsp;F100.
+G01&nbsp;X5.&nbsp;Y8.66
+G01&nbsp;X-5.&nbsp;Y8.66
+G01&nbsp;X-10.&nbsp;Y0.
+G01&nbsp;X-5.&nbsp;Y-8.66
+G01&nbsp;X5.&nbsp;Y-8.66
+G01&nbsp;X10.&nbsp;Y0.
+&nbsp;(Inside&nbsp;hexagon)
+G00&nbsp;X3.&nbsp;Y0.
+G00&nbsp;Z0.1
+G01&nbsp;Z-2.&nbsp;F50.
+G01&nbsp;X1.5&nbsp;Y2.6
+G01&nbsp;X-1.5&nbsp;Y2.6
+G01&nbsp;X-3.&nbsp;Y0.
+G01&nbsp;X-1.5&nbsp;Y-2.6
+G01&nbsp;X1.5&nbsp;Y-2.6
+G01&nbsp;X3.&nbsp;Y0.
+&nbsp;(Move&nbsp;the&nbsp;cutter&nbsp;to&nbsp;the&nbsp;center&nbsp;and&nbsp;finish&nbsp;the&nbsp;program)
+G00&nbsp;X0.&nbsp;Y0.&nbsp;Z0.1
+M05
+M30</pre><p>请注意，上述代码是一个示例，根据实际情况进行相应调整和更改。</p><p><br/></p></div>
+<div class="article-footer">
+	<div class="article-tags">
+		<strong><i class="fa fa-tags"></i>本文标签：</strong>	</div>
+</div>
+<nav class="article-nav">
+	<span class="article-nav-prev"><i class="fa fa-angle-double-left"></i><a href="57.html" rel="prev">常州钣金加工</a></span>
+	<span class="article-nav-next"><a href="59.html" rel="next">常州钣金厂_常州钣金加工</a><i class="fa fa-angle-double-right"></i></span>
+</nav>
+</div>
+<div class="related_posts">
+	<div class="relates"><ul>
+	</ul>
+	</div>
+</div>
+</div>
+<aside class="sidebar">
+	
+
+<div class="widget" id="divCatalog">
+<span class="icon"><i class="fa fa-navicon"></i></span>
+<h2>网站分类</h2>
+<ul class="divCatalog"><li><a title="常州钣金加工" href="../banjinjiagong.html">常州钣金加工</a></li>
+<li id="navbar-category-2"><a href="../xxj.html">选球机</a></li>
+<li><a title="常州激光切割加工" href="../jiguangqiege.html">常州激光切割加工</a></li>
+<li><a title="常州焊接加工" href="../hj.html">常州焊接加工</a></li>
+<li><a title="常州折弯加工" href="../czzwjg.html">常州折弯加工</a></li>
+</ul>
+</div>
+<div class="widget" id="divFavorites">
+<span class="icon"><i class="fa fa-navicon"></i></span>
+<h2>常州钣金加工</h2>
+<ul class="divFavorites"><p style="color:red">联系电话：13506122530</p><p style="color:red">联系人：邓经理</p></ul>
+</div>
+<div class="widget" id="divTags">
+<span class="icon"><i class="fa fa-navicon"></i></span>
+<h2>标签列表</h2>
+<ul class="divTags"><li><a title="常州钣金加工" href="../tags-1.html">常州钣金加工<span class="tag-count"> (32)</span></a></li>
+<li><a title="常州冲压加工" href="../tags-2.html">常州冲压加工<span class="tag-count"> (34)</span></a></li>
+<li><a title="常州激光切割加工" href="../tags-3.html">常州激光切割加工<span class="tag-count"> (30)</span></a></li>
+<li><a title="金坛激光切割加工" href="../tags-4.html">金坛激光切割加工<span class="tag-count"> (27)</span></a></li>
+<li><a title="金坛焊接加工" href="../tags-5.html">金坛焊接加工<span class="tag-count"> (19)</span></a></li>
+<li><a title="常州焊接加工" href="../tags-6.html">常州焊接加工<span class="tag-count"> (20)</span></a></li>
+<li><a title="常州折弯加工" href="../tags-7.html">常州折弯加工<span class="tag-count"> (17)</span></a></li>
+<li><a title="口罩机钣金加工" href="../tags-8.html">口罩机钣金加工<span class="tag-count"> (13)</span></a></li>
+<li><a title="常州新北钣金加工" href="../tags-9.html">常州新北钣金加工<span class="tag-count"> (10)</span></a></li>
+<li><a title="充电桩钣金加工" href="../tags-10.html">充电桩钣金加工<span class="tag-count"> (7)</span></a></li>
+<li><a title="机柜钣金加工" href="../tags-11.html">机柜钣金加工<span class="tag-count"> (2)</span></a></li>
+</ul>
+</div>
+<div class="widget" id="divPrevious">
+<span class="icon"><i class="fa fa-navicon"></i></span>
+<h2>最近发表</h2>
+<ul class="divPrevious"><li><a title="常州钣金厂_常州钣金加工" href="59.html">常州钣金厂_常州钣金加工</a></li>
+<li><a title="加工中心正六边形编程实例" href="58.html">加工中心正六边形编程实例</a></li>
+<li><a title="常州钣金加工" href="57.html">常州钣金加工</a></li>
+<li><a title="空调钣金加工" href="56.html">空调钣金加工</a></li>
+<li><a title="矫平加工" href="55.html">矫平加工</a></li>
+<li><a title="机柜钣金加工" href="54.html">机柜钣金加工</a></li>
+<li><a title="常州激光切割厂家" href="53.html">常州激光切割厂家</a></li>
+<li><a title="壳体零件加工" href="52.html">壳体零件加工</a></li>
+<li><a title="方形防护罩" href="51.html">方形防护罩</a></li>
+<li><a title="激光切割件加工" href="50.html">激光切割件加工</a></li>
+</ul>
+</div></aside>
+</section>
+</div>
+<footer class="footer">
+		<div class="footer-inner">
+			<div class="footer-copyright">
+				<span class="yunluocopyright">版权归 <a id="yunluo" href="../" title="选型机-选球机-选形机" target="_blank"
+						>选型机-选球机-选形机</a></span>
+			</div>
+		</div>
+	</footer>
+<div class="tongjicode"><script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?b9e8ed6d9454798c8aca492c56eba282";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+
+
+</body>
+</html>
+<!--79.76 ms , 8 queries , 681kb memory , 0 error-->

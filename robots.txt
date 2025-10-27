@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.vr013.com/sitemap.xml
+
+Disallow: /zb_system/
+Disallow: /zb_users/
+Disallow: /test_
+Disallow: /_downloads.html
