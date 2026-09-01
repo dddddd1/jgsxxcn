@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://jgsxx.cn/index.html</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -50,6 +50,129 @@
       <image:loc>https://jgsxx.cn/images/external/taoci-qiu-shaixuanji.jpg</image:loc>
       <image:title>陶瓷球筛选机车间实拍 - 兴顺筛分机</image:title>
       <image:caption>武进区横林兴顺陶瓷球筛选机车间实拍，适用于氧化锆球、氧化铝球、刚玉球等高精度球体粒度分级</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jgsxx.cn/post/3.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://jgsxx.cn/images/external/jiguang-qiege-jiajia.jpg</image:loc>
+      <image:title>激光切割机切割金属板实拍</image:title>
+      <image:caption>常州激光切割加工，数控激光切割机切割金属板材实拍</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jgsxx.cn/post/8.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://jgsxx.cn/images/external/jiguang-qiegeji-shebei.jpg</image:loc>
+      <image:title>光纤激光切割机设备图</image:title>
+      <image:caption>金坛激光切割加工，光纤激光切割机设备展示</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jgsxx.cn/images/external/jinshu-lixianjia-jixuanjian.jpg</image:loc>
+      <image:title>金属机箱机柜安装加工件</image:title>
+      <image:caption>常州钣金加工金属机箱机柜安装配件</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jgsxx.cn/images/external/zhutie-duangai-zhujian.jpg</image:loc>
+      <image:title>铸铁端盖铸造件毛坯</image:title>
+      <image:caption>常州金属加工铸铁端盖铸造件毛坯件</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jgsxx.cn/post/10.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://jgsxx.cn/images/external/jinshu-moji-anzhuangban.jpg</image:loc>
+      <image:title>金属安装底板零件</image:title>
+      <image:caption>常州钣金电箱电柜加工金属安装底板零件</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jgsxx.cn/post/14.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://jgsxx.cn/images/external/cnc-lishi-jiazhongzhongxin.jpg</image:loc>
+      <image:title>CNC立式加工中心设备</image:title>
+      <image:caption>常州机床外防护，CNC立式加工中心设备</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jgsxx.cn/post/15.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://jgsxx.cn/images/external/banjin-lianxi-fangshi.jpg</image:loc>
+      <image:title>常州钣金加工联系方式电话</image:title>
+      <image:caption>常州钣金加工联系方式，联系电话 13506122530</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jgsxx.cn/images/external/yangli-zhewangji.jpg</image:loc>
+      <image:title>扬力数控折弯机车间实拍</image:title>
+      <image:caption>扬力数控折弯机车间实拍，常州钣金加工设备</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jgsxx.cn/post/17.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://jgsxx.cn/images/external/hanjie-zuoye-xianchang.jpg</image:loc>
+      <image:title>焊接工人焊接作业现场</image:title>
+      <image:caption>常州焊接加工，焊接工人作业现场实拍</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jgsxx.cn/post/18.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://jgsxx.cn/images/external/yaoxin-hansi-yuanli.jpg</image:loc>
+      <image:title>药芯焊丝电弧焊工艺原理图</image:title>
+      <image:caption>金坛焊接加工，药芯焊丝电弧焊工艺原理图</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jgsxx.cn/images/external/hanjieji-yaokonghe.jpg</image:loc>
+      <image:title>焊接机遥控盒控制面板</image:title>
+      <image:caption>焊接机遥控盒控制面板，焊接设备配件</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jgsxx.cn/images/external/hanjie-qiang-caozuo-ling.jpg</image:loc>
+      <image:title>焊枪角度操作要领技术图</image:title>
+      <image:caption>焊接操作要领，焊枪角度与运条技术示意图</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jgsxx.cn/post/19.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://jgsxx.cn/images/external/chongya-moji-01.jpg</image:loc>
+      <image:title>冲压模具</image:title>
+      <image:caption>常州冲压加工，冲压模具</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jgsxx.cn/images/external/chongya-moji-fangzhen.jpg</image:loc>
+      <image:title>汽车覆盖件模具干涉仿真</image:title>
+      <image:caption>汽车覆盖件模具干涉仿真验证</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://jgsxx.cn/images/external/jinshu-chongya-moji.jpg</image:loc>
+      <image:title>级进冲压模具</image:title>
+      <image:caption>级进冲压模具，常州冲压加工工艺装备</image:caption>
     </image:image>
   </url>
 </urlset>

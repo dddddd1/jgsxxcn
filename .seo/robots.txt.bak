@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https://jgsxx.cn/sitemap.xml
+Sitemap: https://jgsxx.cn/image-sitemap.xml
+
+Disallow: /zb_system/
+Disallow: /test_
