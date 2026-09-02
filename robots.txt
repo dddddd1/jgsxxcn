@@ -5,4 +5,3 @@ Sitemap: https://jgsxx.cn/image-sitemap.xml
 
 Disallow: /zb_system/
 Disallow: /test_
-Disallow: /images/external/quarantine/
