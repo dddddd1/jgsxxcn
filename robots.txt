@@ -1,7 +1,26 @@
 User-agent: *
 Allow: /
-Sitemap: https://jgsxx.cn/sitemap.xml
-Sitemap: https://jgsxx.cn/image-sitemap.xml
-
 Disallow: /zb_system/
 Disallow: /test_
+
+# AI/生成式引擎爬虫显式放行：豆包(字节Bytespider)、夸克/通义千问(阿里QuarkBot)、OpenAI、Anthropic、Perplexity
+User-agent: Bytespider
+Allow: /
+
+User-agent: QuarkBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://jgsxx.cn/sitemap.xml
+Sitemap: https://jgsxx.cn/image-sitemap.xml
