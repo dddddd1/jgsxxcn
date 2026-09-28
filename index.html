@@ -35,7 +35,7 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
+      "@type": ["Organization", "LocalBusiness"],
       "@id": "https://jgsxx.cn/#organization",
       "name": "武进区横林兴顺金刚石设备厂",
       "alternateName": "兴顺金刚石设备",
@@ -44,22 +44,56 @@
         "@type": "ImageObject",
         "url": "https://jgsxx.cn/zb_users/theme/filmlee/style/images/logo.png"
       },
+      "image": "https://jgsxx.cn/images/external/placeholder.webp",
       "description": "常州专业生产选型机、选球机、分选机、筛分机、选形机等工业分选设备。提供氧化锆珠分选机、氧化铝珠选型机、金刚石选型机、纳米级选型机等多种规格，广泛应用于电子、汽车、航空航天、医疗器械等领域。",
       "telephone": "+86-13506122530",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+86-13506122530",
-        "contactType": "sales",
-        "contactOption": "TollFree",
-        "areaServed": "CN",
-        "availableLanguage": ["zh-Hans"]
-      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+86-13506122530",
+          "contactType": "sales",
+          "contactOption": "TollFree",
+          "areaServed": "CN",
+          "availableLanguage": ["Chinese", "English"]
+        }
+      ],
       "address": {
         "@type": "PostalAddress",
-        "addressRegion": "江苏省常州市",
+        "streetAddress": "运河北路 188 号",
+        "addressLocality": "常州市",
+        "addressRegion": "江苏省",
+        "postalCode": "213100",
         "addressCountry": "CN"
       },
-      "sameAs": []
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 31.7725,
+        "longitude": 119.9495
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "08:30",
+          "closes": "18:00"
+        }
+      ],
+      "areaServed": [
+        {"@type": "City", "name": "常州"},
+        {"@type": "City", "name": "无锡"},
+        {"@type": "City", "name": "苏州"},
+        {"@type": "City", "name": "南京"},
+        {"@type": "City", "name": "镇江"},
+        {"@type": "City", "name": "南通"},
+        {"@type": "City", "name": "上海"},
+        {"@type": "Country", "name": "中国"}
+      ],
+      "knowsAbout": [
+        "金刚石选型机", "金刚石选形机", "选球机", "分选机", "筛分机",
+        "氧化锆珠分选机", "氧化铝珠选型机", "玻璃珠选型机", "碳化硅选型机",
+        "纳米级分选机", "工业分选设备", "颗粒形貌分选", "粒度分级"
+      ],
+      "sameAs": ["https://jgsxx.cn/"]
     },
     {
       "@type": "WebSite",
@@ -205,25 +239,7 @@
 <body style="background-color: #f7f7f7;background-image: url(zb_users/theme/filmlee/style/images/body_bg.png);">
 	<div id="header_content">
 
-		<!-- 添加结构化数据 -->
-		<script type="application/ld+json">
-		{
-		  "@context": "https://schema.org",
-		  "@type": "Corporation",
-		  "name": "常州选型机-选球机-分选机-筛分机专业制造商",
-		  "url": "https://jgsxx.cn/",
-		  "logo": "https://jgsxx.cn/zb_users/theme/filmlee/style/images/logo.png",
-		  "description": "常州专业生产选型机、选球机、分选机、筛分机等工业分选设备。提供氧化锆珠分选机、氧化铝珠选型机、金刚石选型机、纳米级选型机等多种规格，广泛应用于电子、汽车、航空航天、医疗器械等领域。",
-		  "telephone": "13506122530",
-		  "contactPoint": {
-			"@type": "ContactPoint",
-			"telephone": "13506122530",
-			"contactType": "sales",
-			"areaServed": "CN"
-		  }
-		}
-		</script>
-
+		<!-- 组织实体统一由 <head> 的 @graph 声明（#organization），此处不再重复声明以免产生冲突实体 -->
 		<header id="header" class="header">
 			<div class="container-inner">
 				<div class="g-logo"><a href="/">
