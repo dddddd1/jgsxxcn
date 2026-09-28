@@ -1,8 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /zb_system/
-Disallow: /test_
-
 # AI/生成式引擎爬虫显式放行：豆包(字节Bytespider)、夸克/通义千问(阿里QuarkBot)、OpenAI、Anthropic、Perplexity
 User-agent: Bytespider
 Allow: /
